@@ -77,7 +77,7 @@ provider "aws" {
 9. Agora via **Terminal** ou **Console** (vscode, cmd, git, fdc kkk) coloque esses comandos com a sua credencial de login da **Azure**:
 
 ```
-az login -u RM86975@fiap.com.br -p Fiap@3568
+az login -u RM86975@fiap.com.br -p Fiap@*****
 ```
 
 ```
