@@ -90,7 +90,7 @@ az account list --query "[?user.name=='RM86975@fiap.com.br'].{Name:name, ID:id, 
 az ad sp create-for-rbac --name sp-terraform-nhs-3 --role Contributor --scopes /subscriptions/41ffcd55-b4c1-4b92-98e9-ab8f64c0c11a
 
 ```
-> **Note**: Sempre mude nessa linha de codigo o *sp-terraform* acresente algo como eu fiz 
+> **Note**: Sempre mude nessa linha de codigo o *sp-terraform* acresente algo como eu fiz e altere o ID no final da linha do código
 
 
 10. Altere os dados como fiz no código a seguir:
