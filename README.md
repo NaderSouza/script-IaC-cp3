@@ -133,7 +133,7 @@ No Secrets fica assim:
 git add .
 ```
 ```
-git commit -m "cp-2"
+git commit -m "cp-3"
 ```
 ```
 git push origin develop
