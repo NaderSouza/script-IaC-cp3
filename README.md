@@ -17,7 +17,7 @@ git clone https://github.com/NaderSouza/staticsite-multi-cloud-nhs.git
 3. Crie a **Branch** develop **(Não sabemos se ele vai pedir isso)**
 
 ```
-git checkout - b develop 
+git checkout -b develop 
 ```
 
 4. Entrar na **AWS** e dar start o **LAB** e pegar as credencias e colocar no **GitHub Secrets**
