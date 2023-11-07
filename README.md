@@ -87,7 +87,7 @@ az account list --query "[?user.name=='RM86975@fiap.com.br'].{Name:name, ID:id, 
 > **Note**: Apos esse comando ele ira te dar o seu **ID**, copie e salve em algum lugar isso 
 
 ```
-az ad sp create-for-rbac --name sp-terraform-nhs-3 --role Contributor --scopes /subscriptions/41ffcd55-b4c1-4b92-98e9-ab8f64c0c11a
+az ad sp create-for-rbac --name sp-terraform-nhs-3 --role Contributor --scopes /subscriptions/91ffcd55-b5c1-4b92-88e9-ab8f64c0c88a
 
 ```
 > **Note**: Sempre mude nessa linha de codigo o *sp-terraform* acresente algo como eu fiz e altere o ID no final da linha do código
@@ -97,10 +97,10 @@ az ad sp create-for-rbac --name sp-terraform-nhs-3 --role Contributor --scopes /
 
 ```
 {
-  "appId": "e4af7bb0-e207-47d2-b513-5a98b0cc6d31",
+  "appId": "e4af7bb0-e207-47d2-b513-5a98b0etc6d31",
   "displayName": "sp-terraform-nhs-0",
-  "password": "3C18Q~4WgTFZo53lMbryHgdAg67~nUFImYo3maeb",
-  "tenant": "11dbbfe2-89b8-4549-be10-cec364e59551"
+  "password": "3C18Q~4WgTFZo53lMbrysdwdHgdAg67~nUFImYo3maebuj9u9",
+  "tenant": "11dbbfe2-89b8-4549-be10-cec364e88994"
 }
 
 -------------------------------------------------------------
@@ -108,19 +108,19 @@ az ad sp create-for-rbac --name sp-terraform-nhs-3 --role Contributor --scopes /
 Aplicar essas credencias da Azure no Github - 
 
 {
-    "clientId": "e4af7bb0-e207-47d2-b513-5a98b0cc6d31",
-    "clientSecret": "3C18Q~4WgTFZo53lMbryHgdAg67~nUFImYo3maeb",
-    "subscriptionId": "41ffcd55-b4c1-4b92-98e9-ab8f64c0c11a",
-    "tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+    "clientId": "e4af7bb0-e207-47d2-b513-5a98b0etc6d31",
+    "clientSecret": "3C18Q~4WgTFZo53lMbrysdwdHgdAg67~nUFImYo3maebuj9u9",
+    "subscriptionId": "91ffcd55-b5c1-4b92-88e9-ab8f64c0c88a",
+    "tenantId": "11dbbfe2-89b8-4549-be10-cec364e88994"
 }
 
 
 No Secrets fica assim:
 
-      ARM_CLIENT_ID - e4af7bb0-e207-47d2-b513-5a98b0cc6d31
-      ARM_CLIENT_SECRET - 3C18Q~4WgTFZo53lMbryHgdAg67~nUFImYo3maeb
-      ARM_SUBSCRIPTION_ID - 41ffcd55-b4c1-4b92-98e9-ab8f64c0c11a
-      ARM_TENANT_ID - 11dbbfe2-89b8-4549-be10-cec364e59551
+      ARM_CLIENT_ID - e4af7bb0-e207-47d2-b513-5a98b0etc6d31
+      ARM_CLIENT_SECRET - 3C18Q~4WgTFZo53lMbrysdwdHgdAg67~nUFImYo3maebuj9u9
+      ARM_SUBSCRIPTION_ID - 91ffcd55-b5c1-4b92-88e9-ab8f64c0c88a
+      ARM_TENANT_ID - 11dbbfe2-89b8-4549-be10-cec364e88994
 ```
 
 <br>
