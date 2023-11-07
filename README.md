@@ -44,7 +44,7 @@ git checkout -b develop
 
 
 
-> **Note**: Coloquei tfstate1 pois não podia - Mas sempre coloque tfstate**
+> **Note**: Coloquei tfstate1 pois não podia - Mas sempre coloque **tfstate**
 
 ![container](/images/conta2.png)
 
