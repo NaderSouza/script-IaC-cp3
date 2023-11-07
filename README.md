@@ -20,7 +20,7 @@ git clone https://github.com/NaderSouza/staticsite-multi-cloud-nhs.git
 git checkout -b develop 
 ```
 
-4. Entrar na **AWS** e dar start o **LAB** e pegar as credencias e colocar no **GitHub Secrets**
+4. Entrar na **AWS** e dar start o **LAB** e pegar as credencias e colocar no **GitHub Secrets** e autorizar o workflows no **Actions**
 
 ![secrets](/images/secret.png)
 
